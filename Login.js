@@ -41,7 +41,7 @@ const Login = () => {
       </form>
       <br></br>
       <br></br>
-       <Signup/> {/*  Signup page will be rendered here */}
+       {/* <Signup/>  Signup page will be rendered here */}
     </div>
   );
 };
