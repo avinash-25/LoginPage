@@ -10,8 +10,7 @@ const Login = () => {
   const handleLogin = () => {
     const validEmail = 'avinashranjan268@gmail.com';
     const validPassword = 'Avi@123';
-
-    if (email === validEmail && password === validPassword) {
+   if (email === validEmail && password === validPassword) {
       alert('Login Successful');
     } else {
       setError('Invalid credentials. Please try again.');
@@ -42,7 +41,7 @@ const Login = () => {
       </form>
       <br></br>
       <br></br>
-      <Signup/>
+       <Signup/> {/*  Signup page will be rendered here */}
     </div>
   );
 };
