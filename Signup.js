@@ -9,7 +9,6 @@ const Signup = () => {
   const [success, setSuccess] = useState('');
 
   const handleSignup = () => {
-    // Basic form validation
     if (!email || !password || !confirmPassword) {
       setError('All fields are required.');
       return;
@@ -20,11 +19,8 @@ const Signup = () => {
       return;
     }
 
-    // Replace this with your actual signup logic, e.g., sending data to a server
-    // Simulating a successful signup for this example
     setSuccess('Signup successful!');
     
-    // Clear form fields
     setEmail('');
     setPassword('');
     setConfirmPassword('');
